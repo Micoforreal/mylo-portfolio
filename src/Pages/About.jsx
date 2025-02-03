@@ -10,7 +10,7 @@ import {
 import React from "react";
 import { Navbar } from "../Components/Navbar";
 import styles from "../Styles/About.module.css";
-import shivrajImg from './Images/faviconWithoutBG.png'
+import Mylo from './Images/faviconWithoutBG.png'
 //  myimg from '~/public/faviconWithoutBG.png'
 
 
@@ -29,7 +29,6 @@ import { useRef } from "react";
 import { useContext } from "react";
 import { RefContext } from "../Context/RefContext";
 import {motion} from 'framer-motion'
-import shiv from './Images/shivraj.png'
 
 export const About = () => {
   const { aboutRef } = useContext(RefContext);
@@ -74,7 +73,7 @@ export const About = () => {
                   width={'150px'}
                   objectFit={'cover'}
                   // src="https://raw.githubusercontent.com/shivraj32644/Porfolio/main/public/favicon.png" alt="man" />
-                  src={shivrajImg} alt="man" />
+                  src={Mylo} alt="man" />
                 
 
             </Box>
@@ -130,7 +129,7 @@ My goal is to turn ideas into powerful, easy-to-use apps that make a difference.
                   // objectFit={'contain'}
                   // src="https://raw.githubusercontent.com/shivraj32644/Porfolio/main/public/favicon.png" alt="myimg" />
                   // src={ window.location.origin+"/favicon.png" } alt="myimg" />
-                  src={ shivrajImg} alt="myimg" />
+                  src={ Mylo} alt="myimg" />
                   {/* // src={ process.env.PUBLIC_URL+"/favicon.png" } alt="myimg" /> */}
                   {/* // src={ "%PUBLIC_URL%/faviconWithoutBG.png" } alt="myimg" /> */}
                 {/* process.env.PUBLIC_URL+"/favicon.png" */}
@@ -155,7 +154,7 @@ My goal is to turn ideas into powerful, easy-to-use apps that make a difference.
 
               
                  </motion.p>
-                <a href="https://drive.google.com/file/d/1lAttLQ8_W4kJsezF6pR-h1lPBltgaIcR/view" target={'_blank'}>
+                <a href="" target={'_blank'}>
               <Button mt={"20px"} ml="15px" bg="#4dbdfa" color={"black"}>
                 Download Resume
                   </Button>

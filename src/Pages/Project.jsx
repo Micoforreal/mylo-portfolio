@@ -123,7 +123,7 @@ export const Project = () => {
                 <div className={styles.buttons}>
                   
                   <a
-                    href="https://corpcare.co.in/"
+                    href="https://t.me/ex1tonbot/EXPTE"
                     target="_blank"
                     className={styles.primaryBtn}
                   >
