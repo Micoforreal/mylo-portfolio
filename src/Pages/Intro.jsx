@@ -177,9 +177,9 @@ export const Intro = () => {
 
 
 
-
         <Box w={"40%"}>
- <motion.div
+
+ <motion.span
           
               initial={{ x: 70, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
@@ -198,7 +198,7 @@ export const Intro = () => {
           alt="img2"
           />
                
-          </motion.div>
+          </motion.span>
         </Box>
       </>
         )}
