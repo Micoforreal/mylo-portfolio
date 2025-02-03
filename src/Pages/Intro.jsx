@@ -69,7 +69,8 @@ export const Intro = () => {
             <Box width={'100%'} >
             <Box my='7' style={{display:'flex',flexDirection:'column' , alignItems:'center' }}>
           <Heading  lineHeight="tall" textAlign="start">
-            <Heading  fontFamily="monospace" color={colors.primary} mb={'15px'} size="sm" fontSize="25px">
+            <Heading  fontFamily="monospace" color={colors.primary} mb={'15px'} size="sm" fontSize="35px">
+             
               <Typewriter
                 options={{
                   autoStart: true,
