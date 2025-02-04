@@ -93,7 +93,7 @@ My goal is to turn ideas into powerful, easy-to-use apps that make a difference.
 
 
               </p>
-              <a href="https://drive.google.com/file/d/1lAttLQ8_W4kJsezF6pR-h1lPBltgaIcR/view" target={"_blank"}>
+              <a href="" target={"_blank"}>
               <Button mt={"30px"} ml="15px" bg="#4dbdfa" color={"black"}>
                 Download Resume
                 </Button>
