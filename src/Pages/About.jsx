@@ -93,7 +93,7 @@ My goal is to turn ideas into powerful, easy-to-use apps that make a difference.
 
 
               </p>
-              <a href="" target={"_blank"}>
+              <a href="https://drive.google.com/file/d/1Mb850aseteNtbc-qYEpR5Jcq5aU4KF3d/view?usp=drive_link" target={"_blank"}>
               <Button mt={"30px"} ml="15px" bg="#4dbdfa" color={"black"}>
                 Download Resume
                 </Button>
@@ -125,15 +125,8 @@ My goal is to turn ideas into powerful, easy-to-use apps that make a difference.
                   height='50%'
 
                   objectFit={'scale-down'}
-                  // p={'20px'}
-                  // objectFit={'contain'}
-                  // src="https://raw.githubusercontent.com/shivraj32644/Porfolio/main/public/favicon.png" alt="myimg" />
-                  // src={ window.location.origin+"/favicon.png" } alt="myimg" />
-                  src={ Mylo} alt="myimg" />
-                  {/* // src={ process.env.PUBLIC_URL+"/favicon.png" } alt="myimg" /> */}
-                  {/* // src={ "%PUBLIC_URL%/faviconWithoutBG.png" } alt="myimg" /> */}
-                {/* process.env.PUBLIC_URL+"/favicon.png" */}
-
+                      src={ Mylo} alt="myimg" />
+                 
             </Box>
 
             <Box color={"white"} w={"664px"}>
@@ -154,7 +147,7 @@ My goal is to turn ideas into powerful, easy-to-use apps that make a difference.
 
               
                  </motion.p>
-                <a href="" target={'_blank'}>
+                <a href="https://drive.google.com/file/d/1Mb850aseteNtbc-qYEpR5Jcq5aU4KF3d/view?usp=drive_link" target={'_blank'}>
               <Button mt={"20px"} ml="15px" bg="#4dbdfa" color={"black"}>
                 Download Resume
                   </Button>
