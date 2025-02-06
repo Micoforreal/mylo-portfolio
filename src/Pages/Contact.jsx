@@ -87,7 +87,7 @@ export const Contact = () => {
               justifyContent="center"
               flexDirection={"column"}
             >
-              <h2>LinkedIn</h2>
+              <h2>Instagram</h2>
               <p style={{ color: "#999999" }}>micoforreal</p>
             </Box>
           </Box>
