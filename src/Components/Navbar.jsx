@@ -188,14 +188,14 @@ export const Navbar = () => {
               <Box id="navItem" onClick={handleRef} p='8px' borderBottom={cur==="home"?"3px solid #4dbdfa":"none"} >
                 HOME
               </Box>
-              <Box id="navItem" onClick={handleRef2} p='8px' borderBottom={cur==="about"?"3px solid #4dbdfa":"none"} >
-                ABOUT
-              </Box>
               <Box id="navItem" onClick={handleRef3} p='8px' borderBottom={cur==="skill"?"3px solid #4dbdfa":"none"}>
                 SKILLS
               </Box>
               <Box id="navItem" onClick={handleRef4} p='8px' borderBottom={cur==="project"?"3px solid #4dbdfa":"none"} >
                 PROJECTS
+              </Box>
+              <Box id="navItem" onClick={handleRef2} p='8px' borderBottom={cur==="about"?"3px solid #4dbdfa":"none"} >
+                ABOUT
               </Box>
         
               <Box id="navItem" onClick={handleRef6} p='8px' borderBottom={cur==="contact"?"3px solid #4dbdfa":"none"} >
