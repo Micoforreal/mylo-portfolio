@@ -8,6 +8,7 @@ import nodejsImg from "./Images/nodejs.png";
 import DjangoImg from "./Images/django.png";
 import mongoImg from "./Images/mongo.png";
 import figmaImg from "./Images/figma.png";
+import rustImge from "./Images/rust.svg"
 import expressImg from "./Images/express.png";
 import { calcLength, motion } from "framer-motion";
 import { Variants } from "framer-motion";
@@ -145,10 +146,10 @@ export const Skills = () => {
         >
           <div className={styles.content}>
             <img
-              src="https://github.com/shivraj32644/Porfolio/blob/main/public/redux.png?raw=true"
+              src={rustImge}
               alt=""
             />
-            <h3>Redux</h3>
+            <h3>Rust</h3>
           </div>
         </motion.div>
 

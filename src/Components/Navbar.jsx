@@ -21,9 +21,6 @@ export const Navbar = () => {
   const {cur, SetCur,aboutRef,introRef,projectRef,githubRef,skillRef,contactRef} = useContext(RefContext)
 
 
-  // const h = aboutRef.current.offsetHeight
-
-
   
   let lastKnownScrollPosition = 0;
   let ticking = false;
