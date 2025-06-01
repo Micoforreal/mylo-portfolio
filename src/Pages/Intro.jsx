@@ -55,21 +55,11 @@ export const Intro = () => {
                     duration: .8,
                   }}>
 
-         <Box margin="auto" mt='10'  width={'70%'} >
-
-          <Image
-          borderRadius='50'
-          src={
-            mylo
-          }
-          alt="img2"
-          />
-            </Box>
           </motion.p>
-            <Box width={'100%'} >
+            <Box width={'100%'} textAlign="center" >
             <Box my='7' style={{display:'flex',flexDirection:'column' , alignItems:'center' }}>
           <Heading  lineHeight="tall" textAlign="start">
-            <Heading  fontFamily="monospace" color={colors.primary} mb={'15px'} size="sm" fontSize="25px">
+            <Heading  fontFamily="monospace" height={'50px'} textAlign='center' color={colors.primary} mb={'15px'} size="sm" fontSize="25px">
              
               <Typewriter
                 options={{
@@ -125,8 +115,8 @@ export const Intro = () => {
 
       ):(
       <>
-              <Box w={"42%"}>
-              <Heading lineHeight="tall" textAlign="start">
+              <Box w={"100%"} textAlign="center">
+              <Heading lineHeight="tall" textAlign="center">
             <Heading fontFamily="monospace" color='#4dbdfa' mb={'15px'} size="sm" fontSize="35px">
               <Typewriter
                 options={{
@@ -177,29 +167,6 @@ export const Intro = () => {
 
 
 
-        <Box w={"40%"}>
-
- <motion.span
-          
-              initial={{ x: 70, opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1 }}
-              viewport={{ once: false, amount: 0.1 }}
-              transition={{
-                duration: 3.5,
-                type: "spring",
-                stiffness: 300,
-              }}
-            >
-        <Image
-          borderRadius='50'
-          src={
-            mylo
-          }
-          alt="img2"
-          />
-               
-          </motion.span>
-        </Box>
       </>
         )}
         
